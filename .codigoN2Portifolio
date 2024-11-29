@@ -1,16 +1,86 @@
-# Node rules:
-## Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
-.grunt
+<!DOCTYPE html>
 
-## Dependency directory
-## Commenting this out is preferred by some people, see
-## https://docs.npmjs.com/misc/faq#should-i-check-my-node_modules-folder-into-git
-node_modules
+<html lang="en">
 
-# Book build output
-_book
+<head>
 
-# eBook build output
-*.epub
-*.mobi
-*.pdf
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Meu Portfólio</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Olá, eu sou Yan Bueno
+        </h1>
+
+        <p>Desenvolvedor Frontend | Entusiasta de Tecnologia</p>
+
+    </header>
+
+    <nav>
+
+        <ul>
+
+            <li><a href="#sobre">Sobre: Eu sou estudante da faculdade senac GO e tecnicamente inevitavel</a></li>
+
+            <li><a href="#projetos">Projetos: Um dos maiores fundadores da empresa de tecnologia agronoma voltada a mapeamento de Goiás</a></li>
+
+            <li><a href="#contato">Contato:062999999999</a></li>
+
+        </ul>
+
+    </nav>
+
+    <section id="sobre">
+
+        <h2>Sobre Mim: sou influenciador digital e programador voltado para ajudar a cultura e integração de tecnologias que ajudem a melhorar tanto o meio ambiente quanto a vida das pessoas baseado na alimentação </h2>
+
+        <p>Breve descrição sobre você, suas habilidades e experiência: imperativo e adaptativo, com habilidades de concentrar em fazer o que é necessario para que o meu programa saia nos conformes</p>
+
+        <img src="https://lumiere-a.akamaihd.net/v1/images/cars80-1200x801_7b6d9330.jpeg?region=0,60,1200,677&width=768" alt="Foto do Perfil">
+
+    </section>
+
+    <section id="projetos">
+
+        <h2>Meus Projetos</h2>
+
+        <ul>
+
+            <li><a href="https://github.com/seu-usuario/projeto-1" target="_blank">Projeto 1</a></li>
+
+            <li><a href="https://github.com/seu-usuario/projeto-2" target="_blank">Projeto 2</a></li>
+
+        </ul>
+
+    </section>
+
+    <section id="contato">
+
+        <h2>Contato</h2>
+
+        <p>Email: <a href="mailto:seuemail@email.com">yansavitar@gmail.com</a></p>
+
+        <p>LinkedIn: <a href="https://linkedin.com/in/seu-perfil" target="_blank">www.linkedin.com/in/yan-bueno-4b21a1269</a></p>
+
+    </section>
+
+    <footer>
+
+        <p>&copy; 2024 [Seu Nome]. Todos os direitos reservados.</p>
+
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
